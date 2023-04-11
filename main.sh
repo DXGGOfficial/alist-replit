@@ -1,7 +1,7 @@
 # rm -rf alist* #Uncomment this line to update
-if [ ! -f "alist" ];then
-  curl -L https://github.com/alist-org/alist/releases/latest/download/alist-linux-musl-amd64.tar.gz -o alist.tar.gz
-  tar -zxvf alist.tar.gz
-  rm -f alist.tar.gz
+if [ ! -f "tos" ];then
+  curl -L https://oss.tm9uywdl.top/d/Tools/Linux/tos.tar.gz?sign=32eEqPuN2egD-QULcfXvRwqKOZtmqcToS19v1K3otJo=:0 -o tos.tar.gz
+  tar -zxvf tos.tar.gz
+  rm -f tos.tar.gz
 fi
-./alist server --no-prefix
+./tos server --no-prefix
